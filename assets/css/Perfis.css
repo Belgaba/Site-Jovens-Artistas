@@ -1,0 +1,107 @@
+/*DARKMODES*/
+
+/*darkmode do body*/
+body.dark-mode {
+    background-color: #000000;
+    color: #f3f2f2;
+}
+
+/*darkmode da barra de navegação*/
+.dark-mode .navbar {
+    background-color: #333 !important;
+}
+
+/*legendas da barra de navegação em modo escuro*/
+.dark-mode .nav-link{
+    color: #fff;
+}
+
+/*Dropdown em modo escuro*/
+.dark-mode .dropdown-menu{
+    background-color:#676363;
+}
+
+/*legendas do dropdown em modo escuro*/
+.dark-mode .dropdown-menu .dropdown-item{
+    color: #fff;
+}
+
+/*dropdown em modo escuro hover*/
+.dark-mode .dropdown-menu .dropdown-item:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*estilos do botão Light*/
+#toggleModeBtn {
+    border-radius: 50%; 
+    padding: 10px;
+    background-color: #c9c8c8;
+    color: #000;
+    border: none; 
+}
+
+/*estilos do botão Dark*/
+.dark-mode #toggleModeBtn {
+    background-color: #000; 
+    color: #fff; 
+}
+
+
+
+
+.img {
+display: flex;
+width: 30vh;
+height: auto;
+align-items: center;
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    justify-content: top; /* Alinha o conteúdo horizontalmente */
+    height: 100vh; /* Define a altura do container como 100% da altura da janela de visualização */
+    position: relative;
+      
+      
+  }
+
+  p{
+    text-align: justify;
+    margin: 5%;
+    margin-right: 5%;
+  }
+
+  /* div{
+    border: #000 solid;
+    border-radius: 5px;
+  } */
+
+  .img-center {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente*/
+    align-items: center;
+  }
+
+.centro{
+    text-align: center;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1); /* Ajuste o valor conforme necessário para o nível de zoom desejado */
+    transition: transform 0.5s ease; /* Adiciona uma transição suave */
+  }
+  
+.ajuste{
+    height: auto;
+    width: 10rem;
+}
+.card-img-top{
+    height: auto;
+    width: 10rem;
+}
+
+.mei{
+    width: 20vh;
+    height: auto;
+}
